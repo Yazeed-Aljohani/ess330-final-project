@@ -1,0 +1,58 @@
+---
+title: "ESS 330 Project Proposals"
+author:
+  - name: "Yazeed Aljohani"
+    affiliation: "Colorado State University"
+    corresponding: true
+
+  - name: "Josh Puyear"
+    affiliation: "Colorado State University"
+
+  - name: "Cade Vanek"
+    affiliation: "Colorado State University"
+bibliography: references.bib
+csl: apa.csl
+---
+
+**Yazeed Aljohani** – **Proposal 1: Land Use Change and Carbon Emissions in the United States**
+
+Changes in land use, such as deforestation, urban expansion, and agriculture, are significant drivers of carbon emissions. While fossil fuels dominate global CO₂ emissions, land use changes contribute around 18 percent of global emissions (Le Quéré et al., 2018). In the U.S., cropland and urban expansion reduce the carbon sequestration capacity of forests and grasslands, exacerbating climate change. Mapping and quantifying these changes over time helps understand the trade-offs between development and carbon storage. Previous studies highlight the importance of long-term land monitoring and its link to emissions using remote sensing and modeling approaches (Houghton & Nassikas, 2017).
+
+**Objective:** To assess how changes in land use from 2001 to 2021 have impacted carbon emissions across U.S. counties. Hypothesis: Counties with the greatest loss of forest cover will exhibit the highest net increases in carbon emissions over time.
+
+**Proposed Methods**
+
+We will integrate two key datasets:
+
+Land use data from the National Land Cover Database (NLCD)
+
+Carbon flux data from NASA’s ORNL DAAC FLUXNET or the Global Carbon Project
+
+We will map land cover change over time and use linear regression to model the relationship between forest loss and net carbon flux.
+
+**Expected Outcomes**
+
+We expect to find a strong correlation between forest loss and increased net carbon emissions, especially in counties with high urban or agricultural expansion. This would reinforce the need to protect natural land cover for climate mitigation.
+
+------------------------------------------------------------------------
+
+**Yazeed Aljohani** – **Proposal 2: Comparing Transportation Emissions Before and After COVID-19 Lockdowns in Major U.S. Cities**
+
+During the early months of the COVID-19 pandemic, global carbon dioxide emissions from fossil fuels dropped by about 7.8 percent. This was mainly because people traveled less and many activities stopped. Road transportation emissions fell by around 15.5 percent, and aviation declined by nearly 29 percent. These changes were seen around the world, including in China, Europe, and the United States (Liu et al., 2020). This natural experiment offers a unique opportunity to evaluate how reduced human activity affects urban carbon footprints. Understanding these impacts helps design low-carbon mobility solutions and inform policy for sustainable recovery (Forster et al., 2020).
+
+**Objective:** To compare transportation-related carbon emissions in five major U.S. cities before, during, and after COVID-19 lockdowns (2019–2022).\
+**Hypothesis:** Cities with stronger lockdown measures and higher public transit reliance will show the greatest emission reductions.
+
+**Proposed Methods**
+
+We’ll combine:
+
+1.  **EPA’s National Emissions Inventory (NEI)** for transportation-related CO₂
+
+2.  **Google COVID-19 Community Mobility Reports** or city-specific traffic datasets
+
+We will calculate and visualize trends across time and perform ANOVA to compare emissions across periods. Tools: R (tidyverse, ggplot2), Quarto.
+
+**Expected Outcomes**
+
+We expect a clear drop in 2020 emissions followed by partial rebounds in 2021–22. The study can reveal how behavioral shifts contribute to decarbonization and highlight the role of transit systems in shaping emissions.
